@@ -155,7 +155,7 @@
               <el-progress :percentage="91" />
             </div>
             <div class="progress-item">
-              <span>Ligg.Mvc-Version 1.1.1</span>
+              <span>Ligg.Mvc-Version 2.2.1</span>
               <el-progress :percentage="22" />
             </div>
           </div>
