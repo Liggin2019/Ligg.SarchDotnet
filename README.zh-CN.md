@@ -1,5 +1,5 @@
 # 关于Ligg.SarchDotnet
-English | [简体中文](./README.zh-CN.md)
+简体中文 | [English](./README.md)
 ## 介绍
 > 本解决方案旨在构建一套完整的企业管理系统SAAS架构（用于OA、ERP、HRMS、MES等）。包括4个项目：Ligg.Abp, Ligg.Vue, Ligg.Eww, Ligg.Mvc下面是它们的结构图和开发进度。
 

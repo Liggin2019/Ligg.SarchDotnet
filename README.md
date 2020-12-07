@@ -1,4 +1,5 @@
 #### About Ligg.SarchDotnet
+English | [简体中文](./README.zh-CN.md)
 ## Introduction：
 > This solution aims to bulid a full set of enterprise management system SAAS architecture ( for OA, ERP, HRMS, MES, etc). including 4 projects: Ligg.Abp, Ligg.Vue, Ligg.Ewa, Ligg.Mvc. Following is the diagram of their structure.
 Ligg.Abp
