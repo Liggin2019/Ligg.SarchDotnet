@@ -1,47 +1,49 @@
-#关于Ligg.SarchDotnet
-简体中文|English (./README.en.md) 
-## 介绍
-> 本解决方案旨在构建一套完整的企业管理系统SAAS架构（用于OA、ERP、HRMS、MES等）。包括4个项目：Ligg.Abp, Ligg.Vue, Ligg.Eww, Ligg.Mvc下面是它们的结构图和开发进度。
+#### About Ligg.SarchDotnet
+## Introduction：
+> This solution aims to bulid a full set of enterprise management system SAAS architecture ( for OA, ERP, HRMS, MES, etc). including 4 projects: Ligg.Abp, Ligg.Vue, Ligg.Ewa, Ligg.Mvc. Following is the diagram of their structure.
+Ligg.Abp
 
 ## Ligg.Abp
-Ligg.Abp作为主服务器端连接到主数据库提供Restful接口供Ligg.Vue, Ligg.Eww, Ligg.Mvc访问。技术栈基于ABP vNext 2.5（. Net core 3.1, webapi, 多租户），包括JWT，Autofac，Redis，Hangfire，EF（codefirst)，swagger等，支持SqlServer、MySql数据库(其他数据库如SqlLite、PostgreSql未测试)；
+Ligg.Abp is the main server end connected to main database to provide Restful interface to Ligg.Vue, Ligg.Ewa, Ligg.Mvc, based on ABP vNext 2.5(. Net core 3.1, webapi, mutiple tenants ) inluding JWT, Autofac, Redis, Hangfire, EF(code first), swagger. Support SqlServer and MySql database, other db such as sqllite and PostgreSQL are not tested;
 
 ## Ligg.Vue
-Ligg.Vue作为主前端界面，基于VUE2.6，集成elementUI、ztree、echarts和可视化流程设计工具jsplumb；
+Ligg.Vue is the main front end presentation UI , based on Vue 2.6, integrated into elementUI, ztree, echarts and Visual process design tool-jsplumb;
 
-##  Ligg.Eww
- Ligg.Eww（EasyWinWeb），Winform web前端，是由Ligg.EasyWinApp配置而来，用于系统配置、数据初始化、程序测试（包括功能和压力测试）；也可以作为MES或WMS的主前端，毕竟Winform与浏览器的前端更加容易连接设备。
-- 本项目待Ligg.EasyWinApp升级到3.52后上传。
+## Ligg.Eww
+Ligg.Eww(EasyWinWeb) is a Winform web front end Configured from Ligg.EasyWinApp, used as system configuration, data initialization, program test (both press and function); also it can be used for MES or WMS as a bridge between device and Ligg.Abp, after all it is easy to connect device compared to the UI based on brower.
+- This project will be uploaded after Ligg.EasyWinApp upgrades to version 3.52.
+
 
 ## Ligg.Mvc
-Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF核心（db first）、autofac、quartz、bootstrap, jQuery等。Ligg.Mvc将用作CMS和门户生成器，采用响应式网页或移动端H5页面。用于大小屏共存环境下的应用，例如，管理大/小屏、订单审批、问卷调查、官方网站和内部网门户等。
-- 本项目待更新后上传。
+Ligg.Mvc based on Asp.net core 3.1 MVC, tech stack including EF core(db first), autofac, quartz, bootstrap, etc. Ligg.Mvc will be used as CMS and portal generator for responsive web page, or mobile-end H5 page for the usage in the coexistence environment of large and small screen. For example, managerial large/small screens， order approval, survey, official site and intranet portals.
+- This project will be uploaded after updating.
 
-## 鸣谢
-代码参考了meowv/blog、PanJiaChen/vue element admin和其他开源贡献者的工作。在此致谢！
+## Thanks
+The codes reference the work of meowv/blog, PanJiaChen/vue-element-admin and other open-source contributors. Thank you all.
 
-## 开发/测试
+## How to Develop or test
 
-#### 克隆仓库
-git clone https://github.com/Liggin2019/Ligg.SarchDotnet.git , 或
-git clone https://gitee.com/Liggin2019/Ligg.SarchDotnet.git
+# Clone Repository
+- git clone https://github.com/Liggin2019/Ligg.SarchDotnet.git , or
+- git clone https://gitee.com/Liggin2019/Ligg.SarchDotnet.git
 
-#### 发布Ligg.Abp
-- 通过[主文件夹]\Ligg.SarchDotnet\Ligg.Abp\db下的数据库脚本或备份，建立SqlServer数据库
-- 通过Visual Studio发布Ligg.Abp至 [主文件夹]\Ligg.SarchDotnet\Ligg.Abp\publish
+# Publish Ligg.Abp
+- Through  script or backup file  under  [home folder]\Ligg.SarchDotnet\Ligg.Abp\db to establish SQLSERVER database
+- Publish Ligg.Abp by Visual Studioto  [home folder]\Ligg.SarchDotnet\Ligg.Abp\publish.
 
-#### 启动Ligg.Abp服务
-双击 [主文件夹]t\Ligg.SarchDotnet\Ligg.Abp\Run.bat, Run.bat内容如下，可根据你的主文件夹的位置做修改
+# Start Dservice of Ligg.Abp
+- Double click  [home folder]\Ligg.SarchDotnet\Ligg.Abp\Run.bat,  The content  of Run.bat is as follows. You can modify it according to the location of your home folder.
+
 ```js
 cd E:\Doing\coding\project\Ligg.Abp\publish
 e:
 dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
 ```
-#### 测试Ligg.Vue
-- 用Vscode打开Ligg.Vue
-- 关于Vue项目的开发部署可参见PanJiaChen/vue element admin
-- 如果运行npm run dev时提示echarts未加载成功，运行npm install echarts -S即可
-- 用[主文件夹]\Ligg.Vue\vue.config.js文件替换你的同位置、同名文件，如果你的Restful接口的不是http://localhost:5000，可在vue.config.js文件的target，如下：
+# Test Ligg.Vue
+- Open Ligg.Vue by Vscode
+- For the development and deployment of Vue project, please refer to PanJiaChen/vue element admin
+- If run 'npm run dev' failed and get a error 'echarts has not been loaded successfully', run 'npm install echarts - S'
+- Use [home folder]\ Ligg.Vue\ vue.config.js file to replace your file with the same location and same name, if your RESTFUL interface is not http://localhost : 5000, please modify the 'target' value in vue.config.js.  The file is as follows: 
 ```js
  proxy: {
       [process.env.VUE_APP_BASE_API]: {
@@ -54,10 +56,11 @@ dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
     }
 ```
 
-## 示例截图
-
 ## License
 
 [MIT](https://gitee.com/Liggin2019/Ligg.SarchDotnet/blob/master/LICENSE) license.
 
 Copyright (c) 2019-present Liggin2019
+
+//## Demo snapshot
+## Demo Snapshot
