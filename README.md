@@ -1,4 +1,4 @@
-#### 关于Ligg.SarchDotnet
+#关于Ligg.SarchDotnet
 简体中文|English (./README.en.md) 
 ## 介绍
 > 本解决方案旨在构建一套完整的企业管理系统SAAS架构（用于OA、ERP、HRMS、MES等）。包括4个项目：Ligg.Abp, Ligg.Vue, Ligg.Eww, Ligg.Mvc下面是它们的结构图和开发进度。
@@ -22,22 +22,22 @@ Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF核心（db first）、
 
 ## 开发/测试
 
-# 克隆仓库
+#### 克隆仓库
 git clone https://github.com/Liggin2019/Ligg.SarchDotnet.git , 或
 git clone https://gitee.com/Liggin2019/Ligg.SarchDotnet.git
 
-# 发布Ligg.Abp
+#### 发布Ligg.Abp
 - 通过[主文件夹]\Ligg.SarchDotnet\Ligg.Abp\db下的数据库脚本或备份，建立SqlServer数据库
 - 通过Visual Studio发布Ligg.Abp至 [主文件夹]\Ligg.SarchDotnet\Ligg.Abp\publish
 
-# 启动Ligg.Abp服务
+#### 启动Ligg.Abp服务
 双击 [主文件夹]t\Ligg.SarchDotnet\Ligg.Abp\Run.bat, Run.bat内容如下，可根据你的主文件夹的位置做修改
 ```js
 cd E:\Doing\coding\project\Ligg.Abp\publish
 e:
 dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
 ```
-# 测试Ligg.Vue
+#### 测试Ligg.Vue
 - 用Vscode打开Ligg.Vue
 - 关于Vue项目的开发部署可参见PanJiaChen/vue element admin
 - 如果运行npm run dev时提示echarts未加载成功，运行npm install echarts -S即可
