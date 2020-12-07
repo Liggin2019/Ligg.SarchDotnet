@@ -7,7 +7,7 @@ English | [简体中文](./README.zh-CN.md)
 ![roject diagram and development progress](https://liggin2019.gitee.io/static/images/proj-diagram-dev-progress.png)
 
 ### Ligg.Abp
-Ligg.Abp is the main server end connected to main database to provide Restful interface to Ligg.Vue, Ligg.Ewa, Ligg.Mvc, based on ABP vNext 2.5(. Net core 3.1, webapi, multiple tenants ) inluding JWT, Autofac, Redis, Hangfire, EF(code first), swagger. Support SqlServer and MySql database, other db such as sqllite and PostgreSQL are not tested;
+Ligg.Abp is the main server end connected to main database to provide Restful interface to Ligg.Vue, Ligg.Eww, Ligg.Mvc, based on ABP vNext 2.5(. Net core 3.1, webapi, multiple tenants ) inluding JWT, Autofac, Redis, Hangfire, EF(code first), swagger. Support SqlServer and MySql database (other dbs such as sqllite and PostgreSQL are not tested);
 - Current version: 1.2.1
 
 ### Ligg.Vue
@@ -15,7 +15,7 @@ Ligg.Vue is the main front end presentation UI , based on Vue 2.6 and vue-elemen
 - Current version: 1.2.1
 
 ### Ligg.Eww
-Ligg.Eww(EasyWinWeb) is a Winform web front end Configured from Ligg.EasyWinApp, used as system configuration, data initialization, program test (both press and function); also it can be used for MES or WMS as a bridge between device and Ligg.Abp, after all it is easy to connect device compared to the Front-end based on browser.
+Ligg.Eww(EasyWinWeb) is a Winform web front end Configured from Ligg.EasyWinApp, used as system configuration, data initialization, program test (both press and function); also it can be used for MES or WMS as a bridge between device and Ligg.Abp, after all Winform is easy to connect device compared to the Front-end based on browser.
 - Current version: 3.5.1
 - This project will be uploaded after Ligg.EasyWinApp upgrades to version 3.52(to match Ligg.App 1.2.1).
 
@@ -54,7 +54,7 @@ dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
 - Open Ligg.Vue by Vscode
 - For the development and deployment of Vue project, please refer to PanJiaChen/vue-element-admin
 - If running 'npm run dev' failed and get an error of 'echarts has not been loaded successfully', run 'npm install echarts - S'
-- Use [home folder]\Ligg.SarchDotnet\Ligg.Vue\vue.config.js file to replace your file with the same location and same name, if your RESTFUL interface is not http://localhost : 5000, please modify the 'target' value in vue.config.js.  The file is as follows: 
+- Use [home folder]\Ligg.SarchDotnet\Ligg.Vue\vue.config.js file to replace your file with the same location and same name, if your RESTFUL interface is not http://localhost : 5000, please modify the 'target' value in vue.config.js as below: 
 ```js
  proxy: {
       [process.env.VUE_APP_BASE_API]: {
@@ -67,7 +67,7 @@ dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
     }
 ```
 ## Thanks
-The codes reference the work of meowv/blog, PanJiaChen/vue-element-admin and other open-source contributors. Thank you all.
+The codes refers the work of meowv/blog, PanJiaChen/vue-element-admin and other open-source contributors. Thank you all.
 
 ## License
 
@@ -77,15 +77,15 @@ Copyright (c) 2019-present Liggin2019
 
 ## Demo Snapshot
 ### Ligg.Vue
-- Login
+#### Login
 ![Login](https://liggin2019.gitee.io/static/images/Ligg.Vue-login.png)
-- Dashboard
+#### Dashboard
 ![Dashboard](https://liggin2019.gitee.io/static/images/Ligg.Vue-dashboard.png)
 
 ### Ligg.Eww
-- Login
+#### Login
 ![Login](https://liggin2019.gitee.io/static/images/Ligg.Eww-login.png)
-- System configuration
+#### System configuration
 ![System configuration](https://liggin2019.gitee.io/static/images/Ligg.Eww-trs-cfg.png)
-- Data initiation
+#### Data initiation
 ![Data initiation](https://liggin2019.gitee.io/static/images/Ligg.Eww-usr-mtn.png)  

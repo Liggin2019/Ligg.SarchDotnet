@@ -6,7 +6,7 @@
 > 本解决方案旨在构建一套完整的企业管理系统SAAS架构（用于OA、ERP、HRMS、MES等）。包括4个项目：Ligg.Abp, Ligg.Vue, Ligg.Eww, Ligg.Mvc。下面是项目结构图和开发进度。
 ![项目结构图和开发进度](https://liggin2019.gitee.io/static/images/proj-diagram-dev-progress.png)
 ### Ligg.Abp
-Ligg.Abp作为主服务器端连接到主数据库提供Restful接口供Ligg.Vue, Ligg.Eww, Ligg.Mvc访问。技术栈基于ABP vNext 2.5（. Net core 3.1, webapi, 多租户），包括JWT，Autofac，Redis，Hangfire，EF（codefirst)，swagger等，支持SqlServer、MySql数据库(其他数据库如SqlLite、PostgreSql未测试)；
+Ligg.Abp作为主服务器端连接到主数据库提供Restful接口供Ligg.Vue, Ligg.Eww, Ligg.Mvc访问。技术栈基于ABP vNext 2.5（. Net core 3.1, webapi, 多租户），包括JWT，Autofac，Redis，Hangfire，EF（code first)，swagger等，支持SqlServer、MySql数据库(其他数据库如SqlLite、PostgreSql未测试)；
 - 当前版本: 1.2.1
 
 ### Ligg.Vue
@@ -20,7 +20,7 @@ Ligg.Vue作为主前端界面，基于VUE2.6和vue-element-admin 4.4.4，集成e
 
 
 ### Ligg.Mvc
-Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF核心（db first）、autofac、quartz、bootstrap, jQuery等。Ligg.Mvc将用作CMS和门户生成器，采用响应式网页或移动端H5页面。用于大小屏共存环境下的应用，例如，管理大/小屏、订单审批、问卷调查、官方网站和内部网门户等。
+Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF（db first）、autofac、quartz、bootstrap, jQuery等。Ligg.Mvc将用作CMS和Portal生成器，采用响应式网页或移动端H5页面。用于大小屏共存环境下的应用，例如，管理大/小屏、订单审批、问卷调查、官方网站和内部网门户等。
 - 当前版本: 2.2.1
 - 本项目待更新至2.2.2，与Ligg.Abp匹配后上传。
 
@@ -42,7 +42,7 @@ Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF核心（db first）、
 - 通过Visual Studio发布Ligg.Abp至 [主文件夹]\Ligg.SarchDotnet\Ligg.Abp\publish
 
 #### 启动Ligg.Abp服务
-双击 [主文件夹]\Ligg.SarchDotnet\Ligg.Abp\Run.bat, Run.bat内容如下，可根据你的主文件夹的位置做修改
+- 双击 [主文件夹]\Ligg.SarchDotnet\Ligg.Abp\Run.bat。Run.bat内容如下，可根据你的主文件夹的位置做修改
 ```js
 cd E:\Doing\coding\project-git\Ligg.SarchDotnet\Ligg.Abp\publish
 e:
@@ -66,7 +66,7 @@ dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
 ```
 
 ## 鸣谢
-代码参考了meowv/blog、PanJiaChen/vue element admin和其他开源贡献者的工作。在此致谢！
+代码参考了meowv/blog、PanJiaChen/vue-element-admin和其他开源贡献者的工作。在此致谢！
 
 ## License
 
@@ -76,15 +76,15 @@ Copyright (c) 2019-present Liggin2019
 
 ## 示例截图
 ### Ligg.Vue
-- 登录
+#### 登录
 ![登录](https://liggin2019.gitee.io/static/images/Ligg.Vue-login.png)
-- 首页
-![登录](https://liggin2019.gitee.io/static/images/Ligg.Vue-dashboard.png)
+#### 首页
+![首页](https://liggin2019.gitee.io/static/images/Ligg.Vue-dashboard.png)
 
 ### Ligg.Eww
-- 登录
+#### 登录
 ![登录](https://liggin2019.gitee.io/static/images/Ligg.Eww-login.png)
-- 配置
-![登录](https://liggin2019.gitee.io/static/images/Ligg.Eww-trs-cfg.png)
+#### 配置
+![配置](https://liggin2019.gitee.io/static/images/Ligg.Eww-trs-cfg.png)
 - 数据初始化
 ![登录](https://liggin2019.gitee.io/static/images/Ligg.Eww-usr-mtn.png)  
