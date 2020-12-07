@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ligg.Abp.HttpApi</name>
+    </assembly>
+    <members>
+        <member name="M:Ligg.Abp.HttpApi.Controllers.AuthController.LoginAsync(System.String,System.String)">
+            <summary>
+            登录成功，生成Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ligg.Abp.HttpApi.Controllers.AuthController.LogoutAsync(System.String)">
+            <summary>
+            退出登录
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

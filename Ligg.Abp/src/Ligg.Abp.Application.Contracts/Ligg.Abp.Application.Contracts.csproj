@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\common.props" />
+  
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Ligg.Abp.Application.Contracts</AssemblyName>
+    <RootNamespace>Ligg.Abp.Application.Contracts</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\Ligg.Abp.HttpApi.Hosting\Ligg.Abp.Application.Contracts.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ligg.App.Domain.Contracts\Ligg.Abp.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Ligg.Base\Ligg.Base.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Cfg\Pd\MaterialUnit\" />
+    <Folder Include="Cms\" />
+    <Folder Include="Oa\" />
+  </ItemGroup>
+
+</Project>

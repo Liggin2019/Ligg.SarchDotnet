@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Ligg.Abp.Domain</AssemblyName>
+    <RootNamespace>Ligg.Abp.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\Ligg.Abp.HttpApi.Hosting\Ligg.Abp.Domain.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Identity.Domain" Version="2.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ligg.App.Domain.Contracts\Ligg.Abp.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

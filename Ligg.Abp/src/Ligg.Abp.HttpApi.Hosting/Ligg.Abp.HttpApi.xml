@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ligg.Abp.HttpApi</name>
+    </assembly>
+    <members>
+        <member name="M:Ligg.Abp.HttpApi.Controllers.SessionHelper.SetSession(System.String,System.String)">
+            <summary>
+            设置session值
+            </summary>
+            <param name="session"></param>
+            <param name="key">键</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:Ligg.Abp.HttpApi.Controllers.SessionHelper.GetSession(System.String)">
+            <summary>
+            获取Session值
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,37 +1,63 @@
-# SarchDonet
+#### 关于Ligg.SarchDotnet
+简体中文|English (./README.en.md) 
+## 介绍
+> 本解决方案旨在构建一套完整的企业管理系统SAAS架构（用于OA、ERP、HRMS、MES等）。包括4个项目：Ligg.Abp, Ligg.Vue, Ligg.Eww, Ligg.Mvc下面是它们的结构图和开发进度。
 
-#### 介绍
-本方案旨在打造一个企业管理系统的全面架构，分为几个项目： Ligg.App, Ligg.Vue, Ligg.Ewa, Ligg.Mvc. 
+## Ligg.Abp
+Ligg.Abp作为主服务器端连接到主数据库提供Restful接口供Ligg.Vue, Ligg.Eww, Ligg.Mvc访问。技术栈基于ABP vNext 2.5（. Net core 3.1, webapi, 多租户），包括JWT，Autofac，Redis，Hangfire，EF（codefirst)，swagger等，支持SqlServer、MySql数据库(其他数据库如SqlLite、PostgreSql未测试)；
 
-#### 软件架构
-软件架构说明
+## Ligg.Vue
+Ligg.Vue作为主前端界面，基于VUE2.6，集成elementUI、ztree、echarts和可视化流程设计工具jsplumb；
 
+##  Ligg.Eww
+ Ligg.Eww（EasyWinWeb），Winform web前端，是由Ligg.EasyWinApp配置而来，用于系统配置、数据初始化、程序测试（包括功能和压力测试）；也可以作为MES或WMS的主前端，毕竟Winform与浏览器的前端更加容易连接设备。
+- 本项目待Ligg.EasyWinApp升级到3.52后上传。
 
-#### 安装教程
+## Ligg.Mvc
+Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF核心（db first）、autofac、quartz、bootstrap, jQuery等。Ligg.Mvc将用作CMS和门户生成器，采用响应式网页或移动端H5页面。用于大小屏共存环境下的应用，例如，管理大/小屏、订单审批、问卷调查、官方网站和内部网门户等。
+- 本项目待更新后上传。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 鸣谢
+代码参考了meowv/blog、PanJiaChen/vue element admin和其他开源贡献者的工作。在此致谢！
 
-#### 使用说明
+## 开发/测试
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+# 克隆仓库
+git clone https://github.com/Liggin2019/Ligg.SarchDotnet.git , 或
+git clone https://gitee.com/Liggin2019/Ligg.SarchDotnet.git
 
-#### 参与贡献
+# 发布Ligg.Abp
+- 通过[主文件夹]\Ligg.SarchDotnet\Ligg.Abp\db下的数据库脚本或备份，建立SqlServer数据库
+- 通过Visual Studio发布Ligg.Abp至 [主文件夹]\Ligg.SarchDotnet\Ligg.Abp\publish
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+# 启动Ligg.Abp服务
+双击 [主文件夹]t\Ligg.SarchDotnet\Ligg.Abp\Run.bat, Run.bat内容如下，可根据你的主文件夹的位置做修改
+```js
+cd E:\Doing\coding\project\Ligg.Abp\publish
+e:
+dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
+```
+# 测试Ligg.Vue
+- 用Vscode打开Ligg.Vue
+- 关于Vue项目的开发部署可参见PanJiaChen/vue element admin
+- 如果运行npm run dev时提示echarts未加载成功，运行npm install echarts -S即可
+- 用[主文件夹]\Ligg.Vue\vue.config.js文件替换你的同位置、同名文件，如果你的Restful接口的不是http://localhost:5000，可在vue.config.js文件的target，如下：
+```js
+ proxy: {
+      [process.env.VUE_APP_BASE_API]: {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+        pathRewrite: {
+          ['^' + process.env.VUE_APP_BASE_API]: ''
+        }
+      }
+    }
+```
 
+## 示例截图
 
-#### 特技
+## License
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[MIT](https://gitee.com/Liggin2019/Ligg.SarchDotnet/blob/master/LICENSE) license.
+
+Copyright (c) 2019-present Liggin2019

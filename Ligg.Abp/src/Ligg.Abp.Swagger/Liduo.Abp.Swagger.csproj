@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Ligg.Abp.Swagger</AssemblyName>
+    <RootNamespace>Ligg.Abp.Swagger</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore" Version="2.7.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="5.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ligg.Abp.Domain\Ligg.Abp.Domain.csproj" />
+  </ItemGroup>
+  
+</Project>

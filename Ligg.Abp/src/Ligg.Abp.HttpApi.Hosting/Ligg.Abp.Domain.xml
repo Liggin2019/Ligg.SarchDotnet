@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ligg.Abp.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Ligg.Abp.Domain.AppSettings">
+            <summary>
+            appsettings.json配置文件数据读取类
+            </summary>
+        </member>
+        <member name="F:Ligg.Abp.Domain.AppSettings._config">
+            <summary>
+            配置文件的根节点
+            </summary>
+        </member>
+        <member name="M:Ligg.Abp.Domain.AppSettings.#cctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.EnableDb">
+            <summary>
+            EnableDb
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.ConnectionStrings">
+            <summary>
+            ConnectionStrings
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.ApiVersion">
+            <summary>
+            ApiVersion
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.Caching">
+            <summary>
+            Caching
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Caching.RedisConnectionString">
+            <summary>
+            RedisConnectionString
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.Hangfire">
+            <summary>
+            Hangfire
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.JWT">
+            <summary>
+            JWT
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.GitHub">
+            <summary>
+            GitHub
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.MTA">
+            <summary>
+            MTA
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.Signature">
+            <summary>
+            个性签名配置
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.BaiduAI">
+            <summary>
+            百度AI 语音合成
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.TencentCloud">
+            <summary>
+            腾讯云API
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.RemoveBg">
+            <summary>
+            RemoveBg
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.FMApi">
+            <summary>
+            FM Api
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.Email">
+            <summary>
+            Email配置
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Email.Host">
+            <summary>
+            Host
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Email.Port">
+            <summary>
+            Port
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Email.UseSsl">
+            <summary>
+            UseSsl
+            </summary>
+        </member>
+        <member name="T:Ligg.Abp.Domain.AppSettings.Email.From">
+            <summary>
+            From
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Email.From.Username">
+            <summary>
+            Username
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Email.From.Password">
+            <summary>
+            Password
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Email.From.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Email.From.Address">
+            <summary>
+            Address
+            </summary>
+        </member>
+        <member name="P:Ligg.Abp.Domain.AppSettings.Email.To">
+            <summary>
+            To
+            </summary>
+        </member>
+    </members>
+</doc>
