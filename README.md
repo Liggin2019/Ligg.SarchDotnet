@@ -1,4 +1,4 @@
-#### About Ligg.SarchDotnet
+# About Ligg.SarchDotnet
 English | [简体中文](./README.zh-CN.md)
 ## Introduction：
 > This solution aims to bulid a full set of enterprise management system SAAS architecture ( for OA, ERP, HRMS, MES, etc). including 4 projects: Ligg.Abp, Ligg.Vue, Ligg.Ewa, Ligg.Mvc. Following is the diagram of their structure.
@@ -19,20 +19,19 @@ Ligg.Eww(EasyWinWeb) is a Winform web front end Configured from Ligg.EasyWinApp,
 Ligg.Mvc based on Asp.net core 3.1 MVC, tech stack including EF core(db first), autofac, quartz, bootstrap, etc. Ligg.Mvc will be used as CMS and portal generator for responsive web page, or mobile-end H5 page for the usage in the coexistence environment of large and small screen. For example, managerial large/small screens， order approval, survey, official site and intranet portals.
 - This project will be uploaded after updating.
 
-## Thanks
-The codes reference the work of meowv/blog, PanJiaChen/vue-element-admin and other open-source contributors. Thank you all.
+
 
 ## How to Develop or test
 
-# Clone Repository
+#### Clone Repository
 - git clone https://github.com/Liggin2019/Ligg.SarchDotnet.git , or
 - git clone https://gitee.com/Liggin2019/Ligg.SarchDotnet.git
 
-# Publish Ligg.Abp
+#### Publish Ligg.Abp
 - Through  script or backup file  under  [home folder]\Ligg.SarchDotnet\Ligg.Abp\db to establish SQLSERVER database
 - Publish Ligg.Abp by Visual Studioto  [home folder]\Ligg.SarchDotnet\Ligg.Abp\publish.
 
-# Start Dservice of Ligg.Abp
+#### Start Dservice of Ligg.Abp
 - Double click  [home folder]\Ligg.SarchDotnet\Ligg.Abp\Run.bat,  The content  of Run.bat is as follows. You can modify it according to the location of your home folder.
 
 ```js
@@ -40,7 +39,7 @@ cd E:\Doing\coding\project\Ligg.Abp\publish
 e:
 dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
 ```
-# Test Ligg.Vue
+#### Test Ligg.Vue
 - Open Ligg.Vue by Vscode
 - For the development and deployment of Vue project, please refer to PanJiaChen/vue element admin
 - If run 'npm run dev' failed and get a error 'echarts has not been loaded successfully', run 'npm install echarts - S'
@@ -56,6 +55,8 @@ dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
       }
     }
 ```
+## Thanks
+The codes reference the work of meowv/blog, PanJiaChen/vue-element-admin and other open-source contributors. Thank you all.
 
 ## License
 
@@ -63,5 +64,4 @@ dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
 
 Copyright (c) 2019-present Liggin2019
 
-//## Demo snapshot
 ## Demo Snapshot

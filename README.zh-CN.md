@@ -17,8 +17,7 @@ Ligg.Vue作为主前端界面，基于VUE2.6，集成elementUI、ztree、echarts
 Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF核心（db first）、autofac、quartz、bootstrap, jQuery等。Ligg.Mvc将用作CMS和门户生成器，采用响应式网页或移动端H5页面。用于大小屏共存环境下的应用，例如，管理大/小屏、订单审批、问卷调查、官方网站和内部网门户等。
 - 本项目待更新后上传。
 
-## 鸣谢
-代码参考了meowv/blog、PanJiaChen/vue element admin和其他开源贡献者的工作。在此致谢！
+
 
 ## 开发/测试
 
@@ -54,10 +53,13 @@ dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
     }
 ```
 
-## 示例截图
+## 鸣谢
+代码参考了meowv/blog、PanJiaChen/vue element admin和其他开源贡献者的工作。在此致谢！
 
 ## License
 
 [MIT](https://gitee.com/Liggin2019/Ligg.SarchDotnet/blob/master/LICENSE) license.
 
 Copyright (c) 2019-present Liggin2019
+
+## 示例截图
