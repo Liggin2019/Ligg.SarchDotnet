@@ -151,7 +151,7 @@
               <el-progress :percentage="92" />
             </div>
             <div class="progress-item">
-              <span>Ligg.Ewa-Version 3.5.2</span>
+              <span>Ligg.Eww-Version 3.5.2</span>
               <el-progress :percentage="91" />
             </div>
             <div class="progress-item">

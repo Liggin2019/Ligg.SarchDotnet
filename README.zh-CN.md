@@ -1,10 +1,10 @@
 # 关于Ligg.SarchDotnet
 简体中文 | [English](./README.md)
-- SarchDotnet 听起来像 "傻吃多乐" ， 可以意会为'Set of Architecture with .Net for Enterprise Management System'.
+- SarchDotnet 听起来像 "傻吃多乐" ， 可以意会为'Set of Architectures with .Net for Enterprise Management Information System'.
 - 当前版本: 1.2.1
 ## 介绍
 > 本解决方案旨在构建一套完整的企业管理系统SAAS架构（用于OA、ERP、HRMS、MES等）。包括4个项目：Ligg.Abp, Ligg.Vue, Ligg.Eww, Ligg.Mvc。下面是项目结构图和开发进度。
-![项目结构图和开发进度](https://liggin2019.gitee.io/static/images/proj-diagram-dev-progress.png)
+![项目结构图和开发进度](https://liggin2019.gitee.io/static/images/Ligg.SarchDotnet-proj-diagram-dev-progress.png)
 ### Ligg.Abp
 Ligg.Abp作为主服务器端连接到主数据库提供Restful接口供Ligg.Vue, Ligg.Eww, Ligg.Mvc访问。技术栈基于ABP vNext 2.5（. Net core 3.1, webapi, 多租户），包括JWT，Autofac，Redis，Hangfire，EF（code first)，swagger等，支持SqlServer、MySql数据库(其他数据库如SqlLite、PostgreSql未测试)；
 - 当前版本: 1.2.1
@@ -42,17 +42,17 @@ Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF（db first）、autofa
 - 通过Visual Studio发布Ligg.Abp至 [主文件夹]\Ligg.SarchDotnet\Ligg.Abp\publish
 
 #### 启动Ligg.Abp服务
-- 双击 [主文件夹]\Ligg.SarchDotnet\Ligg.Abp\Run.bat。Run.bat内容如下，可根据你的主文件夹的位置做修改
+- 双击 ’[主文件夹]\Ligg.SarchDotnet\Ligg.Abp\Run.bat‘。Run.bat内容如下，可根据你的主文件夹的位置做修改
 ```js
 cd E:\Doing\coding\project-git\Ligg.SarchDotnet\Ligg.Abp\publish
 e:
 dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
 ```
 #### 测试Ligg.Vue
-- 用Vscode打开Ligg.Vue
+- 用Vscode打开文件夹‘[主文件夹]\Ligg.SarchDotnet\Ligg.Vue\dev’
 - 关于Vue项目的开发部署可参见PanJiaChen/vue-element-admin
 - 如果运行npm run dev时提示echarts未加载成功，运行npm install echarts -S即可
-- 用[主文件夹]\Ligg.SarchDotnet\Ligg.Vue\vue.config.js文件替换你的同位置、同名文件，如果你的Restful接口的不是http://localhost:5000，可修改vue.config.js文件的target的值，如下：
+- 如果你的Restful接口的不是http://localhost:5000，可修改‘[主文件夹]\Ligg.SarchDotnet\Ligg.Vue\dev\vue.config.js’文件的target的值，如下：
 ```js
  proxy: {
       [process.env.VUE_APP_BASE_API]: {

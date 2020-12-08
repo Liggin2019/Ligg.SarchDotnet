@@ -1,10 +1,10 @@
 # About Ligg.SarchDotnet
 English | [简体中文](./README.zh-CN.md)
-- SarchDotnet is abbreviation of 'Set of Architecture with .Net fo Enterprise Management System', it sounds like "傻吃多乐" in Chinese, means 'enjoy the hapiness of a foodie'. 
+- SarchDotnet is abbreviation of 'Set of Architectures with .Net for Enterprise Management Information System', it sounds like "傻吃多乐" in Chinese, means 'enjoy the hapiness of a foodie'. 
 - Current version: 1.2.1
 ## Introduction：
 > This solution aims to bulid a full set of enterprise management system SAAS architecture ( for OA, ERP, HRMS, MES, etc). including 4 projects: Ligg.Abp, Ligg.Vue, Ligg.Ewa, Ligg.Mvc. Following is the project diagram and development progress.
-![roject diagram and development progress](https://liggin2019.gitee.io/static/images/proj-diagram-dev-progress.png)
+![roject diagram and development progress](https://liggin2019.gitee.io/static/images/Ligg.SarchDotnet-proj-diagram-dev-progress.png)
 
 ### Ligg.Abp
 Ligg.Abp is the main server end connected to main database to provide Restful interface to Ligg.Vue, Ligg.Eww, Ligg.Mvc, based on ABP vNext 2.5(. Net core 3.1, webapi, multiple tenants ) inluding JWT, Autofac, Redis, Hangfire, EF(code first), swagger. Support SqlServer and MySql database (other dbs such as sqllite and PostgreSQL are not tested);
@@ -51,10 +51,10 @@ e:
 dotnet Ligg.Abp.HttpApi.Hosting.dll --urls=http://localhost:5000
 ```
 #### Test Ligg.Vue
-- Open Ligg.Vue by Vscode
+- Open Ligg.Vue by Vscode by open folder of '[home folder]\Ligg.SarchDotnet\Ligg.Vue\dev'
 - For the development and deployment of Vue project, please refer to PanJiaChen/vue-element-admin
 - If running 'npm run dev' failed and get an error of 'echarts has not been loaded successfully', run 'npm install echarts - S'
-- Use [home folder]\Ligg.SarchDotnet\Ligg.Vue\vue.config.js file to replace your file with the same location and same name, if your RESTFUL interface is not http://localhost : 5000, please modify the 'target' value in vue.config.js as below: 
+- If your RESTFUL interface is not http://localhost : 5000, please modify the 'target' value in '[home folde]\Ligg.SarchDotnet\Ligg.Vue\dev\vue.config.js' as below: 
 ```js
  proxy: {
       [process.env.VUE_APP_BASE_API]: {
