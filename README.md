@@ -4,7 +4,7 @@ English | [简体中文](./README.zh-CN.md)
 - Current version: 1.2.1
 ## Introduction：
 > This solution aims to bulid a full set of enterprise management system SAAS architecture ( for OA, ERP, HRMS, MES, etc). including 4 projects: Ligg.Abp, Ligg.Vue, Ligg.Ewa, Ligg.Mvc. Following is the project diagram and development progress.
-![project diagram and development progress](https://liggin2019.gitee.io/static/images/Ligg.SarchDotnet-proj-diagram-dev-progress.png)
+![project diagram and development progress](https://liggin2019.gitee.io/static/images/proj-diagram-dev-progress.png)
 
 ### Ligg.Abp
 Ligg.Abp is the main server end connected to main database to provide Restful interface to Ligg.Vue, Ligg.Eww, Ligg.Mvc, based on ABP vNext 2.5(. Net core 3.1, webapi, multiple tenants ) inluding JWT, Autofac, Redis, Hangfire, EF(code first), swagger. Support SqlServer and MySql database (other dbs such as sqllite and PostgreSQL are not tested);
