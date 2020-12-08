@@ -89,6 +89,3 @@ Copyright (c) 2019-present Liggin2019
 ![System configuration](https://liggin2019.gitee.io/static/images/Ligg.Eww-trs-cfg.png)
 #### Data initiation
 ![Data initiation](https://liggin2019.gitee.io/static/images/Ligg.Eww-usr-mtn.png)  
-
-## Following is the project diagram and development progress.
-![project diagram and development progress](https://liggin2019.gitee.io/Static/images/SarchDotnet/proj-status.png)
