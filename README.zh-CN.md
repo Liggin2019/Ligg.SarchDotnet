@@ -78,14 +78,14 @@ Copyright (c) 2019-present Liggin2019
 ## 示例截图
 ### Ligg.Vue
 #### 登录
-![登录](https://liggin2019.gitee.io/static/images/Ligg.Vue-login.png)
+![登录](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-login.png)
 #### 首页
-![首页](https://liggin2019.gitee.io/static/images/Ligg.Vue-dashboard.png)
+![首页](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-dashboard.png)
 
 ### Ligg.Eww
 #### 登录
-![登录](https://liggin2019.gitee.io/static/images/Ligg.Eww-login.png)
+![登录](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Eww-login.png)
 #### 配置
-![配置](https://liggin2019.gitee.io/static/images/Ligg.Eww-trs-cfg.png)
+![配置](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Eww-trs-cfg.png)
 #### 数据初始化
-![登录](https://liggin2019.gitee.io/static/images/Ligg.Eww-usr-mtn.png)  
+![登录](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Eww-usr-mtn.png)  

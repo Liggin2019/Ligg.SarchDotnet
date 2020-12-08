@@ -78,14 +78,14 @@ Copyright (c) 2019-present Liggin2019
 ## Demo Snapshot
 ### Ligg.Vue
 #### Login
-![Login](https://liggin2019.gitee.io/static/images/Ligg.Vue-login.png)
+![Login](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-login.png)
 #### Dashboard
-![Dashboard](https://liggin2019.gitee.io/static/images/Ligg.Vue-dashboard.png)
+![Dashboard](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-dashboard.png)
 
 ### Ligg.Eww
 #### Login
-![Login](https://liggin2019.gitee.io/static/images/Ligg.Eww-login.png)
+![Login](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Eww-login.png)
 #### System configuration
-![System configuration](https://liggin2019.gitee.io/static/images/Ligg.Eww-trs-cfg.png)
+![System configuration](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Eww-trs-cfg.png)
 #### Data initiation
-![Data initiation](https://liggin2019.gitee.io/static/images/Ligg.Eww-usr-mtn.png)  
+![Data initiation](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Eww-usr-mtn.png)  
