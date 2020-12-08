@@ -10,7 +10,7 @@ English | [简体中文](./README.zh-CN.md)
 Ligg.Abp is the main server end connected to main database to provide Restful interface to Ligg.Vue, Ligg.Eww, Ligg.Mvc, based on ABP vNext 2.5(. Net core 3.1, webapi, multiple tenants ) inluding JWT, Autofac, Redis, Hangfire, EF(code first), swagger. Support SqlServer and MySql database (other dbs such as sqllite and PostgreSQL are not tested);
 - Current version: 1.2.1
 
-### Ligg.Vue
+### Ligg.Vue 1
 Ligg.Vue is the main front end presentation UI , based on Vue 2.6 and vue-element-admin 4.4.4, integrated into elementUI, ztree, echarts and Visual process design tool-jsplumb;
 - Current version: 1.2.1
 

@@ -9,7 +9,7 @@
 Ligg.Abp作为主服务器端连接到主数据库提供Restful接口供Ligg.Vue, Ligg.Eww, Ligg.Mvc访问。技术栈基于ABP vNext 2.5（. Net core 3.1, webapi, 多租户），包括JWT，Autofac，Redis，Hangfire，EF（code first)，swagger等，支持SqlServer、MySql数据库(其他数据库如SqlLite、PostgreSql未测试)；
 - 当前版本: 1.2.1
 
-### Ligg.Vue
+### Ligg.Vue1
 Ligg.Vue作为主前端界面，基于VUE2.6和vue-element-admin 4.4.4，集成elementUI、ztree、echarts和可视化流程设计工具jsplumb；
 - 当前版本: 1.2.1
 
