@@ -4,7 +4,8 @@
 - 当前版本: 1.2.1
 ## 介绍
 > 本解决方案旨在构建一套完整的企业管理系统SAAS架构（用于OA、ERP、HRMS、MES等）。包括4个项目：Ligg.Abp, Ligg.Vue, Ligg.Eww, Ligg.Mvc。下面是项目结构图和开发进度。
-![项目结构图和开发进度](https://liggin2019.gitee.io/static/images/proj-diagram-dev-progress.png)
+![项目结构图和开发进度](https://liggin2019.gitee.io/Static/images/SarchDotnet/proj-status.png)
+
 ### Ligg.Abp
 Ligg.Abp作为主服务器端连接到主数据库提供Restful接口供Ligg.Vue, Ligg.Eww, Ligg.Mvc访问。技术栈基于ABP vNext 2.5（. Net core 3.1, webapi, 多租户），包括JWT，Autofac，Redis，Hangfire，EF（code first)，swagger等，支持SqlServer、MySql数据库(其他数据库如SqlLite、PostgreSql未测试)；
 - 当前版本: 1.2.1
