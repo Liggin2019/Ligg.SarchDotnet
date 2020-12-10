@@ -2,7 +2,7 @@
 English | [简体中文](./README.zh-CN.md)
 - SarchDotnet is abbreviation of 'Set of Architectures with .Net for Enterprise Management Information System', it sounds like "傻吃多乐" in Chinese, means 'enjoy the happiness of a foodie'. 
 - Current version: 1.2.1
-- [Gitee镜像](https://www.gitee.com/liggin2019/Ligg.SarchDotnet)
+- [Gitee Mirror](https://www.gitee.com/liggin2019/Ligg.SarchDotnet)
 ## Introduction：
 > This solution aims to bulid a full set of enterprise information management system SAAS architecture ( for OA, ERP, HRMS, MES, etc). including 4 projects: Ligg.Abp, Ligg.Vue, Ligg.Ewa, Ligg.Mvc. Following is the project diagram and development progress.
 ![project diagram and development progress](https://liggin2019.gitee.io/Static/images/SarchDotnet/proj-status.png)
