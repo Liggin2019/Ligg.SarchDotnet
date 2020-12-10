@@ -82,7 +82,7 @@ Copyright (c) 2019-present Liggin2019
 ![Login](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-login.png)
 
 #### Dashboard
-![Dashboard](https://liggin2019.gitee.io/Static/images/Ligg.Vue-dashboard.png)
+![Dashboard](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-dashboard.png)
 
 ### Ligg.Eww
 #### Login
