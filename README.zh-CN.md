@@ -2,6 +2,7 @@
 简体中文 | [English](./README.md)
 - SarchDotnet 听起来像 "傻吃多乐" ， 可以意会为'Set of Architectures with .Net for Enterprise Management Information System'.
 - 当前版本: 1.2.1
+- [Gitee Mirror](https://www.gitee.com/liggin2019/Ligg.SarchDotnet)
 ## 介绍
 > 本解决方案旨在构建一套完整的企业管理系统SAAS架构（用于OA、ERP、HRMS、MES等）。包括4个项目：Ligg.Abp, Ligg.Vue, Ligg.Eww, Ligg.Mvc。下面是项目结构图和开发进度。
 ![项目结构图和开发进度](https://liggin2019.gitee.io/Static/images/SarchDotnet/proj-status.png)
@@ -21,7 +22,7 @@ Ligg.Vue作为主前端界面，基于VUE2.6和vue-element-admin 4.4.4，集成e
 
 
 ### Ligg.Mvc
-Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF（db first）、autofac、quartz、bootstrap, jQuery等。Ligg.Mvc将用作CMS和Portal生成器，采用响应式网页或移动端H5页面。用于大小屏共存环境下的应用，例如，管理大/小屏、订单审批、问卷调查、官方网站和内部网门户等。
+Ligg.Mvc基于Asp.net core 3.1 MVC，技术堆栈包括EF（db first）、autofac、quartz、bootstrap, jQuery等。Ligg.Mvc将用作CMS和Portal生成器，采用响应式网页或移动端H5页面。用于大小屏共存环境下的应用，例如，管理可视化大/小屏、订单审批、问卷调查、官方网站和内部网门户等。
 - 当前版本: 2.2.1
 - 本项目待更新至2.2.2，与Ligg.Abp匹配后上传。
 
@@ -79,6 +80,7 @@ Copyright (c) 2019-present Liggin2019
 ### Ligg.Vue
 #### 登录
 ![登录](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-login.png)
+
 #### 首页
 ![首页](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-dashboard.png)
 

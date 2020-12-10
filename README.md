@@ -2,6 +2,7 @@
 English | [简体中文](./README.zh-CN.md)
 - SarchDotnet is abbreviation of 'Set of Architectures with .Net for Enterprise Management Information System', it sounds like "傻吃多乐" in Chinese, means 'enjoy the happiness of a foodie'. 
 - Current version: 1.2.1
+- [Gitee镜像](https://www.gitee.com/liggin2019/Ligg.SarchDotnet)
 ## Introduction：
 > This solution aims to bulid a full set of enterprise information management system SAAS architecture ( for OA, ERP, HRMS, MES, etc). including 4 projects: Ligg.Abp, Ligg.Vue, Ligg.Ewa, Ligg.Mvc. Following is the project diagram and development progress.
 ![project diagram and development progress](https://liggin2019.gitee.io/Static/images/SarchDotnet/proj-status.png)
@@ -21,7 +22,7 @@ Ligg.Eww(EasyWinWeb) is a Winform web front end Configured from Ligg.EasyWinApp,
 
 
 ### Ligg.Mvc
-Ligg.Mvc based on Asp.net core 3.1 MVC, tech stack including EF core(db first), autofac, quartz, bootstrap, etc. Ligg.Mvc will be used as CMS and portal generator for responsive web page, or mobile-end H5 page for the usage in the coexistence environment of large and small screen. For example, managerial large/small screens， order approval, survey, official site and intranet portals.
+Ligg.Mvc based on Asp.net core 3.1 MVC, tech stack including EF core(db first), autofac, quartz, bootstrap, etc. Ligg.Mvc will be used as CMS and portal generator for responsive web page, or mobile-end H5 page for the usage in the coexistence environment of large and small screen. For example, managerial visualization large/small screens， order approval, survey, official site and intranet portals.
 - Current version: 2.1.1
 - This project will be uploaded after upgrading to version 2.2.1(to match Ligg.App 1.2.1).
 
@@ -79,6 +80,7 @@ Copyright (c) 2019-present Liggin2019
 ### Ligg.Vue
 #### Login
 ![Login](https://liggin2019.gitee.io/Static/images/SarchDotnet/Ligg.Vue-login.png)
+
 #### Dashboard
 ![Dashboard](https://liggin2019.gitee.io/Static/images/Ligg.Vue-dashboard.png)
 
